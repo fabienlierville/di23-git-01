@@ -3,7 +3,6 @@ window.onload = function ()
     const p1 = document.getElementById("p1");
     if(p1 != null)
     {
-        console.log("A");
         p1.addEventListener("mouseover", function (e) {
             console.log("Bonjour " + p1.innerText);
         });
