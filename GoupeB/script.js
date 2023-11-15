@@ -1,5 +1,4 @@
-let pl = document.getElementById("pl");
-
+let p1 = document.getElementById("p1");
 pl.addEventListener('mouseover', (e) => {
-    console.log("BOnjour");
-})
+    console.log("Bonjour");
+});
