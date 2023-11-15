@@ -7,7 +7,7 @@ p1.addEventListener('mouseover', (e) => {
 let p2 = document.getElementById("p2");
 
 p2.addEventListener('mouseover', (e) => {
-    console.log("Bonjour")+ p2.innerText;
+    console.log("Bonjour"+ p2.innerText);
 });
 
 let p3 = document.getElementById("p3");
