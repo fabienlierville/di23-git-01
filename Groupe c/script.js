@@ -1,10 +1,5 @@
 let p1 = document.getElementById("p1");
 
-<<<<<<< HEAD
-pl.addEventListener('mouseover', (e) => {
-    console.log("Bonjour");
-
-=======
 p1.addEventListener('mouseover', (e) => {
     console.log("Bonjour"+ p1.innerText);
 });
@@ -25,5 +20,4 @@ let p4 = document.getElementById("p4");
 
 p4.addEventListener('mouseover', (e) => {
     console.log("Bonjour"+ p4.innerText);
->>>>>>> 99daef322c0dca6aebb28d2b1e2750e70d9d10c7
 });
