@@ -13,7 +13,7 @@ p2.addEventListener('mouseover', (e)=>(
 let p3 = document.getElementById("p3");
 let name3 = p3.textContent;
 p3.addEventListener('mouseover', (e)=>(
-    console.log("Bonjour" + name3)
+    console.log("Bonjour " + name3)
 ))
 
 let p4 = document.getElementById("p4");
