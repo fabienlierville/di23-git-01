@@ -20,4 +20,5 @@ let p4 = document.getElementById("p4");
 let name4 = p4.textContent;
 p4.addEventListener('mouseover', (e)=>(
     console.log("Bonjour " + name4)
+
 ))
